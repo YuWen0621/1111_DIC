@@ -5,7 +5,7 @@
 
 氣象預報與空氣品質資訊已成為民眾安排戶外活動、通勤、運動與親子行程的重要依據。臺灣中央氣象署（CWA）與環境部（MOENV）已提供豐富的開放資料與 API，包括天氣預報、雨量、紫外線、天氣警特報、AQI、空品預報及污染物觀測資料。然而，這些資料分散於不同平台，使用者仍須自行查詢、比對與解讀，才能決定是否攜帶雨具、防曬、調整時間或改為室內活動。
 
-[env.moenv.gov][opendata.cwa.gov][opendata.cwa.gov][data.gov]
+[[env.moenv.gov](https://env.moenv.gov.tw/en/Issue/Index/87c2b327-f773-4d4a-a42c-a7ab390d8d0d)][opendata.cwa.gov][opendata.cwa.gov][data.gov]
 
 ---
 
