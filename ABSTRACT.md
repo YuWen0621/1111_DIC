@@ -5,7 +5,7 @@
 
 氣象預報與空氣品質資訊已成為民眾安排戶外活動、通勤、運動與親子行程的重要依據。臺灣中央氣象署（CWA）與環境部（MOENV）已提供豐富的開放資料與 API，包括天氣預報、雨量、紫外線、天氣警特報、AQI、空品預報及污染物觀測資料。然而，這些資料分散於不同平台，使用者仍須自行查詢、比對與解讀，才能決定是否攜帶雨具、防曬、調整時間或改為室內活動。
 
-[[env.moenv.gov](https://env.moenv.gov.tw/en/Issue/Index/87c2b327-f773-4d4a-a42c-a7ab390d8d0d)][opendata.cwa.gov][opendata.cwa.gov][data.gov]
+[[env.moenv.gov](https://env.moenv.gov.tw/en/Issue/Index/87c2b327-f773-4d4a-a42c-a7ab390d8d0d)][[opendata.cwa.gov](https://opendata.cwa.gov.tw/about/opendata)][[opendata.cwa.gov](https://opendata.cwa.gov.tw/devManual/datalist)][[data.gov](https://data.gov.tw/en/datasets/40448)]
 
 ---
 
@@ -13,7 +13,7 @@
 
 現有通用型天氣與空品服務多僅提供單一地點、單一時段的原始數據或標準化預警，缺乏對多站行程、個人偏好、活動情境與健康耐受度的整合。雖然近期研究已將 LLM 應用於天氣知識整合、預報文字生成與空品建議，但 LLM 仍存在幻覺、工具呼叫不穩定與風險判斷不可驗證等問題；因此，尚缺乏一個能同時整合多源資料、維護個人耐受度檔案，並產生可追溯行前建議的個人化天氣 Agent。
 
-[qxqk.nmc][arxiv][anthropic][web3.arxiv]
+[[qxqk.nmc](http://qxqk.nmc.cn/qxen/article/issue/2025_51_8)][[arxiv](https://arxiv.org/html/2510.03349)][[anthropic](https://www.anthropic.com/research/writing-tools-for-agents)][[web3.arxiv](https://web3.arxiv.org/abs/2512.11819)]
 
 ---
 
@@ -21,7 +21,7 @@
 
 本專題提出「個人化天氣助理」AI Agent 系統，整合 CWA 與 MOENV 開放資料，針對多站行程提供符合地點、時段、活動類型與個人偏好的行前行動建議。系統不僅回覆「天氣如何」，更進一步回答「何時出發、如何防護、是否改期或改為室內活動」等可執行決策。
 
-[env.moenv.gov][opendata.cwa.gov][arxiv]
+[[env.moenv.gov](https://env.moenv.gov.tw/en/Issue/Index/87c2b327-f773-4d4a-a42c-a7ab390d8d0d)][[opendata.cwa.gov](https://opendata.cwa.gov.tw/devManual/datalist)][[arxiv](https://www.arxiv.org/pdf/2501.13608.pdf)]
 
 ---
 
@@ -29,7 +29,7 @@
 
 系統採混合式 Agent 架構：規則決策引擎負責降雨、紫外線、AQI、污染物差異、冷熱舒適、資料缺漏與資料時效等可驗證門檻判定；LLM Agent 則負責自然語言需求解析、澄清追問、個人偏好理解、建議解釋與後續互動。個人偏好模組記錄使用者對雨、高溫、UV、空品與戶外活動強度的耐受度；回饋機制則依使用者回應持續調整個人化建議。此設計讓 LLM 專注於理解與溝通，而不直接覆寫健康與安全判斷。
 
-[qxqk.nmc][arxiv][anthropic]
+[[qxqk.nmc](http://qxqk.nmc.cn/qxen/article/issue/2025_51_8)][[arxiv](https://arxiv.org/html/2510.03349)][[anthropic](https://www.anthropic.com/research/writing-tools-for-agents)]
 
 ---
 
@@ -37,7 +37,7 @@
 
 研究規劃 Baseline A（原始數據）、Baseline B（固定規則＋模板）與 Proposed（混合式 Agent）三組比較，並設計多站行程、高降雨、高 UV、相同 AQI 但不同污染物、資料缺漏與資料過期等情境。評估指標包括正確性、完整性、個人化程度、可理解性、資料時效處理、規則遵循率、幻覺率與使用者接受度，以驗證混合式 Agent 相較單純資料查詢或固定規則系統的優勢。
 
-[web3.arxiv][arxiv]
+[[web3.arxiv](https://web3.arxiv.org/abs/2512.11819)][[arxiv](https://arxiv.org/abs/2510.04017v2)]
 
 ---
 
