@@ -48,4 +48,5 @@
 > **說明**：本專題目前資料重點為提案與系統設計；所有預期成果不應視為已完成實驗結果。原始 PDF 與 PNG 附件尚需透過支援二進位檔案的上傳管道提交。
 
 ## 圖表
-參見 [資訊圖表內容與編號對照](INFOGRAPHIC.md)。
+<img width="1491" height="1055" alt="個人化天氣助理系統解析資訊圖表" src="https://github.com/user-attachments/assets/a4bb453e-de71-47f4-a10d-05459af73a05" />
+
