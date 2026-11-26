@@ -47,6 +47,16 @@
 
 > **說明**：本專題目前資料重點為提案與系統設計；所有預期成果不應視為已完成實驗結果。原始 PDF 與 PNG 附件尚需透過支援二進位檔案的上傳管道提交。
 
+
+<WritingBlock id="59317" variant="standard">### DIC3 – Project Proposal Refactor Using OpenSpec
+
+This assignment refactors the Personalized Weather Assistant research proposal using OpenSpec's spec-driven development workflow.
+- OpenSpec Change: openspec/changes/personalized-weather-assistant/
+- Generated Artifacts: Proposal, six capability specifications, system design, and implementation tasks.
+- Research Refactoring: PROPOSAL_REFACTOR.md, including the A–F review, 5 Core Mindsets, 3 Trade-offs, 10 Detailed Questions, and revised Introduction and Related Work.
+- Validation: OpenSpec strict validation passed.
+- Status: Proposal and specification stage only; implementation and experimental evaluation are planned for future work.</WritingBlock>
+
 ## 圖表
 <img width="1491" height="1055" alt="個人化天氣助理系統解析資訊圖表" src="https://github.com/user-attachments/assets/a4bb453e-de71-47f4-a10d-05459af73a05" />
 
