@@ -45,10 +45,7 @@
 
 預計指標：正確性、完整性、個人化、可理解性、資料時效處理、規則遵循率、幻覺率與使用者接受度。
 
-> **說明**：本專題目前資料重點為提案與系統設計；所有預期成果不應視為已完成實驗結果。原始 PDF 與 PNG 附件尚需透過支援二進位檔案的上傳管道提交。
-
-
-<WritingBlock id="59317" variant="standard">### DIC3 – Project Proposal Refactor Using OpenSpec
+## Project Proposal Refactor Using OpenSpec
 
 This assignment refactors the Personalized Weather Assistant research proposal using OpenSpec's spec-driven development workflow.
 - OpenSpec Change: openspec/changes/personalized-weather-assistant/
